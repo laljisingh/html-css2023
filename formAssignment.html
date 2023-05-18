@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        background: #ffffff9d;
+        padding:  0px 250px 0px 250px;
+    }
+    select{
+        border: none;
+        width: 200px;
+        padding: 15px;
+        font-size: 14px;
+        border: 1px solid yellowgreen;
+    }
+    
+    option{
+        height: 10px;
+        font-size: 12px;
+    }
+    label{
+        color: rgb(163, 31, 93);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+    }
+    input{
+        border-radius: 1px;
+        border: none;
+        height: 30px;
+        color: rgb(7, 5, 6);
+        background-color: transparent;
+        border-bottom: 2px solid green;
+        font-size: 18px;
+    }
+    button{
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 4px;
+        border: none;
+        margin: 30px;
+        color: rgb(247, 255, 255);
+    }
+    #reset{
+        background-color: rgb(255, 94, 0);
+    }
+    #submit{
+        background-color: green;
+    }
+    
+    #reset:hover{
+        background-color: rgb(121, 57, 21);
+    }
+    #submit:hover{
+        background-color: rgb(70, 133, 70);
+    }
+    textarea{
+        background-color: transparent;
+        border: 2px solid rgb(145, 152, 218);
+        font-size: 20px;
+    }
+</style>
+<body>
+    
+<form>
+    <fieldset>
+     <legend>Personal Details:</legend>
+     <label for="fname">First name:</label>
+     <input type="text" id="fname" name="fname"><br><br>
+     <label for="fname">Middle name:</label>
+     <input type="text" id="fname" name="fname"><br><br>
+     <label for="lname">Last name:</label>
+     <input type="text" id="lname" name="lname"><br><br>
+     <label for="course">Course :</label>
+     <select name="" id="">
+        <option value="B.Tech">B.Tech</option>
+        <option value="B.Tech">B.Sc</option>
+        <option value="B.Tech">MCA</option>
+        <option value="B.Tech">BBA</option>
+        <option value="B.Tech">MA</option>
+     </select><br><br>
+     <label for="gender">Gender:</label><br>
+     <input type="radio" name="gender" id="gender">Male<br>
+     <input type="radio" name="gender" id="gender">Female<br>
+     <input type="radio" name="gender" id="gender">Other<br><br>
+     <label for="birthday">Birthday:</label>
+     <input type="datetime-local" id="birthday" name="birthday"><br><br>
+     <label for="phone">Phone : </label>
+     <input type="text" name="code" id="" value="+91" disabled size="2">
+     <input type="text" name="code" id="" placeholder="8726524497"><br><br>
+     <label for="address">Address :</label>
+     <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+     <label for="emil">Email : </label>
+     <input type="email" name="" id=""><br><br>
+     <label for="Password">Password : </label>
+     <input type="password" name="" id=""><br><br>
+     <label for="pass">Re Type Password : </label>
+     <input type="password" name="" id=""><br><br>
+     <input type="checkbox" name="" id=""><span>Agree to terms and conditions</span><br><br>
+     <input type="file" name="" id="file" >
+     <br>
+     <br>
+     <label for="Choose color">Choose color</label>
+     <input type="color" name="" id=""><br><br>
+     <button id="reset">Reset</button>
+     <button id="submit">Submit</button>
+    </fieldset>
+   </form>
+</body>
+</html>
