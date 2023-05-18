@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0px;
+}
+#div1{
+  background-image: url(https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_1280.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  min-height: 600px;
+}
+#div2{
+  background-image: url(https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_640.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  min-height: 600px;
+}
+#div3{
+  background-image: url(https://wallpapers.com/images/featured/2ygv7ssy2k0lxlzu.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  min-height: 600px;
+}
