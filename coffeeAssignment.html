@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Assignment Page</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        #main{
+            background-image: url(https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+            height: 100vh;
+            width: 100%;
+            background-size: cover;
+            background-repeat: repeat-y;
+            padding-top: 50px;
+        }
+        #head{
+            background-color: burlywood;
+            /* opacity: 0.9; */
+            width: 50%;
+            height: auto;
+            margin-top: 50%;
+            margin: auto;
+            color: rgb(13, 13, 14);
+            padding-top: 20px;
+        }
+        #head:hover{
+            box-shadow: 0px 5px 5px 3px rgb(64, 187, 160) ;
+        }
+        table{
+            width: 100%;
+            padding:0px 30px 0px 30px;
+        }
+        .data2{
+            text-align: end;
+            color: black;
+        }
+        h1,h2{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: black;
+            font-style: normal;
+        }
+        hr{
+            border: 2px solid brown;
+            width: 80%;
+            margin: auto;
+        }
+        td{
+            font-size: 20px;
+            color: rgba(0, 0, 0, 0.767);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="head">
+            <h1><b>
+                <center style="font-size:45px;">
+                    CAMPER CAFE<br>
+                </center>
+            </b></h1>
+            <center><p style="margin: 10px;">Est. 2020</p></center>
+            <hr>
+            <!-- coffeee -->
+            <center><br>
+                <h2>Coffee</h2>
+                <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="no image">
+            </center>
+            <table>
+                <tr>
+                    <td>French Vanilla</td>
+                    <td class="data2">1.3</td>
+                </tr>
+                <tr>
+                    <td>Caramel Macchiato</td>
+                    <td class="data2">2.3</td>
+                </tr>
+                <tr>
+                    <td>Pumpkin Spice</td>
+                    <td class="data2">5.3</td>
+                </tr>
+                <tr>
+                    <td>Hazelnut</td>
+                    <td class="data2">1.7</td>
+                </tr>
+                <tr>
+                    <td>Mocha</td>
+                    <td class="data2">1.8</td>
+                </tr>
+            </table>
+            <!-- dessert -->
+            <center>
+                <h2 style="font-size: 40px;">Dessert</h2>
+                <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="no image">
+            </center>
+            <table>
+                <tr>
+                    <td>Donut</td>
+                    <td class="data2">1.3</td>
+                </tr>
+                <tr>
+                    <td>Cherry Pie</td>
+                    <td class="data2">1.3</td>
+                </tr>
+                <tr>
+                    <td>Cheesecake</td>
+                    <td class="data2">2.3</td>
+                </tr>
+                <tr>
+                    <td>Cinnamon Roll</td>
+                    <td class="data2">5.3</td>
+                </tr>
+            </table>
+            
+            <hr>
+            <center style="margin: 15px;padding-bottom: 20px;">
+                <a href="#" style="color: black;">Visit our website</a>
+                <p>123 Free Code Camp Drive</p>
+            </center>
+        </div>
+    </div>
+</body>
+</html>
