@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    background: #d838385b;
+}
+.container{
+    display: flex;
+}
+
+.container1{
+    width: 25%;
+    flex-direction: row;
+    height: 100vh;
+    background: #618999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 75%;
+    height: 100vh;
+    background: #e2e05d;
+}
+.progress1{
+    width: 50%;
+    border-radius: 10px;
+    height: 20%;
+    background: #b81414;
+}
+.progress2{
+    width: 50%;
+    height: 20%;
+    background: #b81414;
+    border-radius: 10px;
+}
+.progress3{
+    width: 50%;
+    height: 20%;
+    background: #b81414;
+    border-radius: 10px;
+}
