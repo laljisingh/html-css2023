@@ -10,7 +10,7 @@ body{
 }
 .main-div-container{
     height: auto;
-    width: 50vw;
+    width: 30vw;
     border: 2px solid black;
     padding: 2%;
 }
@@ -31,7 +31,7 @@ header{
 }
 .header-heading-h1{
     font-weight: 90px;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 #td{
     font-size: larger;
@@ -59,4 +59,8 @@ header{
 td{
     padding: 2px;
     font-size: 1rem;
+}
+b{
+    font-size:18px;
+    font-weight: 500px;
 }
