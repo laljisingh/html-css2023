@@ -1,0 +1,87 @@
+@import url('https://fonts.cdnfonts.com/css/scientific-calculator-lcd');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap'); 
+* {
+     padding: 0%;
+     margin: 0%;
+ }
+
+ body {
+     width: 100vw;
+     height: 100vh;
+     background-color: rgb(255, 255, 255);
+     overflow-y: hidden;
+     overflow-x: hidden;
+ }
+
+ .main {
+     width: 25%;
+     height: 60%;
+     background-color: rgba(72, 77, 77, 0.829);
+     display: grid;
+     grid-template-rows: auto auto auto auto auto;
+     margin: 2% auto;
+     padding: 20px;
+     grid-gap: 5px;
+     border-radius: 10px;
+ }
+
+ .display {
+    width: 100%;
+    color: aliceblue;
+    /* height: 40%; */
+    /* margin: 10px; */
+    /* border: 2px solid rgb(117, 99, 23); */
+    /* background: #d38989; */
+}
+input {
+    width: 95%;
+    color: rgb(0, 0, 0);
+    height: 80%;
+    font-size: 40px;
+    text-align: end;
+    /* margin: 10px; */
+    font-family: 'Orbitron', sans-serif;
+    border: 2px solid rgb(117, 99, 23);
+    background: #ffffff;
+    border: none;
+    border-radius: 10px;
+    
+}
+ .num1,.num2, .num3, .num4{
+    width: 100%;
+    color: aliceblue;
+    /* height: 40%; */
+    /* margin: 10px; */
+    /* border: 2px solid rgb(117, 99, 23); */
+    /* background: #000; */
+    align-items: center;
+}
+.num1, .num2,.num3, .num4{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* background: #ffffff; */
+    color: #000;
+    /* height:4rem; */
+    grid-gap: 3px;
+}
+.num11,.num12,.num13,.num14{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background: #fdfdfd;
+    color: #000;
+    height: 70px;
+    box-shadow: 0px 5px 0px 2px rgb(214, 207, 193);
+    border-radius: 15px;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 900;
+}
+.numequal{
+    background-color: rgb(238, 159, 12);
+    box-shadow: 0px 5px 0px 2px rgba(223, 151, 7, 0.829);
+}

@@ -1,21 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+body{
+    background: #26cfc7;
 }
 main{
     height: 100vh;
     width: 100vw;
-    background: #d838385b;
+   background: #26cfc7;
 }
 .container{
     display: flex;
 }
-
+.logo img{
+    border-radius: 100%;
+}
+.logo{
+    text-align: center;
+}
 .container1{
     width: 25%;
     flex-direction: row;
     height: 100vh;
-    background: #618999;
+    background: #bad9e4;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,23 +41,72 @@ main{
     justify-content: space-evenly;
     width: 75%;
     height: 100vh;
-    background: #e2e05d;
+    background: #c2f0f098;
+}
+.heading{
+    display: flex;
+    justify-content: start;
+    /* border: 1px solid rebeccapurple; */
+    width: 50%;
+}
+.line{
+     display: flex;
+    justify-content: start;
+    /* border: 1px solid rebeccapurple; */
+    width: 50%;
+}
+hr{
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    background-color:rgb(200, 247, 244);
+    border: none;
+}
+i{
+    font-size: 30px;
+    color: #26cfc7;
+    padding-right: 20px;
+}
+.cnt{
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    background-color:rgb(22, 138, 130);
+    border: none;
 }
 .progress1{
+    display: flex;
     width: 50%;
+    justify-content: space-around;
     border-radius: 10px;
+    align-items: center;
     height: 20%;
-    background: #b81414;
+    background: #c4f0df;
 }
 .progress2{
+    display: flex;
     width: 50%;
-    height: 20%;
-    background: #b81414;
+    justify-content: space-around;
     border-radius: 10px;
+    align-items: center;
+    height: 20%;
+    background: #c4f0df;
 }
 .progress3{
+    display: flex;
     width: 50%;
-    height: 20%;
-    background: #b81414;
+    justify-content: space-around;
     border-radius: 10px;
+    align-items: center;
+    height: 20%;
+    background: #c4f0df;
 }
+.content1{
+    width: 20%;
+}
+.content1 img{
+    width: 90px;
+    width: 90px;
+    border-radius: 20px;
+}
+
