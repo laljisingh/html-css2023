@@ -15,7 +15,7 @@ main {
     display: flex;
     height: 100%;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     color: rgb(2, 2, 2);
     flex-direction: column;
 }
@@ -110,6 +110,10 @@ i {
 .items3,
 .items4 {
     color: #fcfcfc;
+}
+.items3 a i{
+    margin-top: 10rem;
+    color: #ffffff;
 }
 
 a {
