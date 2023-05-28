@@ -14,7 +14,7 @@ header {
     width: 100%;
     background-color: beige;
     height: 10%;
-    border: 1px solid teal;
+    /* border: 1px solid teal; */
 }
 
 .navbarSection {
@@ -39,6 +39,25 @@ header {
 }
 .navbarMiddleContainer{
     width: 30%;
+    position: relative;
+}
+.search{
+    position: absolute;
+    left: 23rem;
+    top: .9px;
+    font-size: 18px;
+    background: #ffffff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 3px;
+    padding-right: 18px;
+}
+.mic{
+    position: absolute;
+    color: rgb(12, 12, 12);
+    top: 0.4rem;
+    left: 27rem;
+    font-size: 20px;
 }
 .navbarMiddleContainer > input{
     border: none;
@@ -47,9 +66,15 @@ header {
     border-radius: 50px;
     height: 2rem;
 }
+
 .navbarRightContainer{
     width: 30%;
     text-align: end;
+}
+
+.navbarRightContainer i{
+    margin-right: 20px;   
+    font-size: 20px; 
 }
 
 main{
@@ -97,22 +122,29 @@ li{
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
+    border-radius: 10px;
 }
 .con1{
-    width: 30%;
-    height: 30%;
-    /* border: 1px solid rgb(182, 230, 50); */
-    background: #e7e7e7;
+    width: 330px;
+    height: 300px;
     padding: 1px;
+    /* border: 5px solid chocolate; */
+    display: flex;
+    flex-wrap: wrap;
     margin: 5px;
+}
+.con1:hover{
+    box-shadow: 0px 8px 6px 2px rgb(143, 143, 143);
 }
 .yt{
     width: 100%;
     height: 100%;
-    border: 1px solid rgb(182, 230, 50);
-    background: #ce1ae6;
+    /* border: 1px solid rgb(182, 230, 50); */
+    /* background: #ce1ae6; */
     padding: 1px;
+    object-fit:fill;
     margin: 5px;
+    
 }
 .sidebar{
     display: flex;
@@ -134,6 +166,9 @@ li{
     color: black;
     font-weight: 900;
 }
+.home i{
+    padding-right:20px;
+}
 .shorts{
     margin: 0.5rem;
     text-align: center;
@@ -142,6 +177,9 @@ li{
     padding-top: 4%;
     border-radius: 5px;
     color: black;
+}
+.shorts i{
+    padding-right:20px;
 }
 .shorts:hover{
     margin: 0.5rem;
@@ -164,7 +202,9 @@ li{
     color: black;
     /* font-weight: 900; */
 }
-
+.subscribe i{
+    padding-right:20px;
+}
 .subscribe:hover{
     margin: 0.5rem;
     text-align: center;
@@ -188,6 +228,9 @@ li{
     color: black;
     /* font-weight: 900; */
 }
+.library i{
+    padding-right:20px;
+}
 .library:hover{
     margin: 0.5rem;
     text-align: center;
@@ -210,6 +253,9 @@ li{
     color: black;
     /* font-weight: 900; */
 }
+.history i{
+    padding-right:20px;
+}
 .history:hover{
     margin: 0.5rem;
     text-align: center;
@@ -231,6 +277,9 @@ li{
     border-radius: 5px;
     color: black;
     /* font-weight: 900; */
+}
+.your_videos i{
+    padding-right:20px;
 }
 .your_videos:hover{
     margin: 0.5rem;
@@ -255,6 +304,9 @@ li{
     color: black;
     /* font-weight: 900; */
 }
+.wath i{
+    padding-right:20px;
+}
 .wath:hover{
     margin: 0.5rem;
     text-align: center;
@@ -276,6 +328,9 @@ li{
     border-radius: 5px;
     color: black;
     /* font-weight: 900; */
+}
+.clips i{
+    padding-right:20px;
 }
 .clips:hover{
     margin: 0.5rem;

@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* overflow-y: hidden; */
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid springgreen; */
+    /* overflow-x: hidden; */
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.navbarContainer{
+    width: 100vw;
+    height: 3.5rem;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.nav1{
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid hotpink; */
+    height: 3.5rem;
+    width: 50%;
+    justify-content: end;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav1 img{
+    /* padding-top: 10px; */
+    height: 2.2rem;
+    width: 10rem;
+}
+.nav2{
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid rgb(102, 10, 56); */
+    height: 3.5rem;
+    width: 50%;
+    justify-content: end;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.nav2 i{
+    padding-right: 30px;
+}
+.nav2 span{
+    padding-right: 30px;
+}
+header{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid khaki; */
+}
+.carousel{
+    width: 100%;
+    height: 70%;
+    position: relative;
+    text-align: left;
+}
+
+.carousel img{
+    width: 100%;
+    height: 60%;
+    position: relative;
+    text-align: left;
+}
+
+.carouselButton{
+    top: 30%;
+    left: 65%;
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    /* border: 1px solid salmon; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.carouselButton button{
+    width: 40%;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(28, 42, 165);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 15px;
+}
+.carouselButton h2{
+    color: black;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.carouselButton p{
+    color: black;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.carouse-button{
+    width: 100%;
+    height: 2rem;
+    /* border: 2px solid rgb(5, 7, 99); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.windows-icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rgb(10, 128, 88); */
+    height: 4rem;
+    /* text-align: center; */
+}
+.icon1{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon1 a{
+    color: rgb(1, 138, 58);
+    margin-top: 10px;
+}
+.icon1 img{
+    /* padding: 20px; */
+    width: 50px;
+    height: 50px;
+    /* justify-content: space-evenly; */
+}
+.cards{
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    height: auto;
+    flex-wrap: wrap;
+    /* border: 1px solid navy; */
+}
+.card1,.card2,.card3,.card4{
+    /* border: 3px solid rgb(102, 10, 56);  */
+    width: 280px;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* padding: 10px; */
+}
+/* card1 */
+.card1 img{
+    width: 245px;
+    height: 140px;
+    padding: 10px;
+    /* border-radius: 50px; */
+}
+
+.card1 h3{
+    line-height: 40px;
+    font-size: 20px;  
+    padding: 10px;  
+}
+.card1 p{
+    padding: 10px;
+    line-height: 20px;
+    font-size: 15px;    
+}
+.card1 a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(75, 73, 214);
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 25px;    
+}
+/* card2 */
+.card2 img{
+    width: 245px;
+    height: 140px;
+    padding: 10px;
+    /* border-radius: 50px; */
+}
+
+.card2 h3{
+    line-height: 40px;
+    font-size: 20px;  
+    padding: 10px;  
+}
+.card2 p{
+    padding: 10px;
+    line-height: 20px;
+    font-size: 15px;    
+}
+.card2 a{
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 25px;    
+}
+/* card3 */
+.card3 img{
+    width: 245px;
+    height: 140px;
+    padding: 10px;
+    /* border-radius: 50px; */
+}
+
+.card3 h3{
+    line-height: 40px;
+    font-size: 20px;  
+    padding: 10px;  
+}
+.card3 p{
+    padding: 10px;
+    line-height: 20px;
+    font-size: 15px;    
+}
+.card3 a{
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 25px;    
+}
+
+/* .card4 */
+.card4 img{
+    width: 245px;
+    height: 140px;
+    padding: 10px;
+    /* border-radius: 50px; */
+}
+
+.card4 h3{
+    line-height: 40px;
+    font-size: 20px;  
+    padding: 10px;  
+}
+.card4 p{
+    padding: 10px;
+    line-height: 20px;
+    font-size: 15px;    
+}
+.card4 a{
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 25px;    
+}
+/* //pictures */
+.picture{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.picture-button{
+    position: absolute;   
+}
+.picture-button{
+    top: 30%;
+    left: 65%;
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    /* border: 1px solid salmon; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.picture-button button{
+    width: 40%;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(28, 42, 165);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 15px;
+}
+.picture-button h2{
+    color: black;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.picture-button p{
+    color: black;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.social{
+    /* border: 1px solid teal; */
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.social span{
+    margin-left: 20px;
+    font-size: 30px;
+}
+.social i{
+    margin-left: 20px;
+    font-size: 30px;
+}
+/* foooter */
+footer{
+    width: 100%;
+    background-color: rgba(121, 118, 118, 0.295);
+    height: 24rem;
+    /* border: 1px solid darkorange; */
+}
