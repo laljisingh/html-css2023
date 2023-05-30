@@ -1,0 +1,115 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid teal; */
+    /* overflow-x: hidden; */
+ } 
+
+main{
+    width: 100vw;
+    height: 80%;
+    /* border: 2px solid tomato; */
+}
+.grid-upper{
+    width: 100vw;
+    height: 6rem;
+    /* border: 1px solid sandybrown; */
+    display: grid;
+    grid-template-columns: 12% 12% 12% 12% 12%;
+    align-items: center;
+    justify-content: center;
+}
+.grid-upper img{
+    width: 100px;
+    height: 90px;
+}
+.grid-upper button{
+    width: 100px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 6px;
+    border: none;
+    height: 30px;
+    padding: 5px;
+    font-weight: 200px;
+}
+.grid-upper button:hover{
+    background-color: rgb(127, 211, 131);
+}
+
+.grid-lower{
+    display: grid;   
+    grid-template-columns: repeat(12,10%);
+    grid-template-rows: repeat(6,7rem);
+    height: 44rem;
+    /* border: 1px solid rgb(212, 162, 162); */
+    /* background-color: rgb(192, 148, 148); */
+}
+.item{
+    /* border: 1px solid white; */
+    margin: 4px;
+    padding: 2px;
+    /* background-color: white; */
+}
+.g1{
+    grid-area: g1;
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+    /* background-color: chocolate; */
+}
+.g2{
+    grid-area: g1;
+    grid-column: 2/span 3;
+    grid-row: 1/span 1;
+}
+.g3{
+    grid-area: g3;
+    grid-column: 5/span 2;
+    grid-row: 1/span 3;
+    /* background-color: turquoise; */
+}
+.g4{
+    grid-area: g4;
+    grid-column: 7/span 4;
+    grid-row: 1/span 3;
+    /* background-color: rgb(61, 71, 70); */
+}
+.g5{
+    grid-area: g5;
+    grid-column: 1/span 2;
+    grid-row: 2/span 2;
+    /* background-color: rgb(57, 45, 110); */
+}
+.g6{
+    grid-area: g6;
+    grid-column: 3/span 2;
+    grid-row: 2/span 2;
+    /* padding: 30px; */
+    /* width: 150px; */
+    /* background-color: rgb(111, 26, 180); */
+}
+.g7{
+    grid-area: g7;
+    grid-column: 1/span 4;
+    grid-row: 4/span 2;
+    /* background-color: rgb(166, 243, 122); */
+}
+.g8{
+    /* grid-area: g1; */
+    grid-column: 5/span 4;
+    grid-row: 4/span 2;
+    /* background-color: rgb(38, 124, 173); */
+}
+.g9{
+    /* grid-area: g9; */
+    grid-column: 9/span 2;
+    grid-row: 4/span 2;
+    /* background-color: rgb(38, 124, 173); */
+}
+
+ 
