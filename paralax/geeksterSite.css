@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./Layer\ 9\ 2.png);
+}
+
+nav {
+    width: 100vw;
+    height: 50vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 50%;
+    height: 80vh;
+    /* border: 2px solid red; */
+    padding-left: 18rem;
+    padding-top: 20px;
+}
+
+.mainHeading {
+
+    width: 177px;
+    height: 38.8px;
+    padding-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.secondHeading {
+
+    width: 252px;
+    height: 139.3px;
+    padding-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 108.9%;
+    /* /* or 35px * */
+
+    color: #070707;
+}
+
+.secondHeading span {
+    color: green;
+}
+
+.right {
+    width: 331.54px;
+    height: 300.79px;
+    left: 700px;
+    top: 51.74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right img {
+    width: 220px;
+    height: 200px;
+    left: 70px;
+    top: 51.74px;
+}
+
+.contentContainer {
+    width: 50vw;
+    height: 10%;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+.contentMain {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.contentpara {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.featureContent {
+    margin: 30px auto;
+    width: 619px;
+    height: 518.39px;
+    background: #16252C;
+    border-radius: 22px;
+}
+
+.text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 108.9%;
+    padding-top: 20px;
+    color: #29B475;
+    text-align: center;
+    width: 100%;
+    /* height: 6rem; */
+}
+
+.cards {
+    width: 95%;
+    height: 95%;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.middleContent {
+    width: 30%;
+    height: 5rem;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.middleContent p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+}

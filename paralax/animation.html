@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+        .d{
+            width: 100vw;
+            height: 100vh;
+        }
+        .main{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin-top: 25%;
+            margin-left: 500px;
+            border-radius: 50%;
+            animation-name: sun;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes sun{
+            0%{
+                
+            }
+            50%{
+                background-color: rgb(224, 88, 34);
+                box-shadow: 1px 1px 50px 30px rgb(228, 58, 35);
+                margin-top: 15%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="d">
+        <div class="main"></div>
+    </div>
+    
+</body>
+</html>
