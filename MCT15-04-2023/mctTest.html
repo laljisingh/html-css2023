@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCT TEST</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./mctTest.css" />
+  </head>
+  <body>
+    <!-- upper para -->
+    <div class="paragraph-header">
+        <p>Free delivery on all orders in India</p>
+    </div>
+    <!-- navbar start -->
+    <div class="navbar-main">
+      <div class="left-part">
+        <img
+          src="https://cdn.staticans.com/image/catalog/brandstore/americantourister/615-2023_03_31-AT_Logo_200x50__1_.png"
+          alt=""
+        />
+      </div>
+      <div class="middle-part">
+        <img
+          src="https://www.americantourister.com.au/on/demandware.static/-/Library-Sites-AmericanTouristerSharedLibrary/default/dwef5198cc/images/global/icon-shop-by-color.svg"
+          alt=""
+        />
+        <a href="#">Luggage</a>
+        <a href="#">BackPacks</a>
+        <a href="#">Duffles</a>
+        <a href="#" class="browse">Browse<span>More</span></a>
+        <a href="#">Discover</a>
+      </div>
+      <div class="right-part">
+        <i class="fa-sharp fa-solid fa-location-dot"></i>
+        <i class="fa-sharp fa-solid fa-user"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-cart-shopping" style="color: #0a0a0a"></i>
+        <i class="fa-solid fa-bars bars"></i>
+      </div>
+    </div>
+    <!-- navbar ended -->
+    <!-- ceousel start-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://cdn.anscommerce.com/catalog/brandstore/americantourister/615-2023_04_24-Hike_Desktop_2400x997_Magna.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://cdn.anscommerce.com/catalog/brandstore/americantourister/615-2023_04_04-VK_CAMPAIGN_HOMEPAGE_BANNER_DESKTOP__1_.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://cdn.anscommerce.com/catalog/brandstore/americantourister/615-2023_04_04-VK_CAMPAIGN_HOMEPAGE_BANNER_DESKTOP__2_.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- crousel end -->
+    <!-- shop category -->
+    <div class="shop-category">
+      <h1>Shop products</h1>
+      <hr />
+    </div>
+    <!-- category-button -->
+    <div class="category-button">
+      <button type="button" class="btn">Most Popular</button>
+      <button type="button" class="btn not-active">What's new</button>
+      <button type="button" class="btn not-active">Best Seller</button>
+    </div>
+    <!-- //cards -->
+    <div class="row row-cols-1 row-cols-md-4 g-3 text-center" id="cards">
+      <div class="col">
+        <div class="card">
+          <i class="fa-regular fa-heart" id="i"></i>
+          <img
+            src="https://cdn.staticans.com/image/tr:e-sharpen-01,h-500,w-500,cm-pad_resize/data/AmericanTourister/26-Feb-2023/LD9001001_1.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title"><b>Altair</b></h5>
+            <h5 class="card-title">
+              <b>₹5,500 <span><s>₹7500</s></span></b>
+            </h5>
+            <button type="button" class="btn cart-button">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <i class="fa-regular fa-heart" id="i"></i>
+          <img
+            src="https://cdn.staticans.com/image/tr:e-sharpen-01,h-500,w-500,cm-pad_resize/data/AmericanTourister/12-June-2023/LQ0001001_1.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title"><b>Altair</b></h5>
+            <h5 class="card-title">
+              <b>₹5,500 <span><s>₹7500</s></span></b>
+            </h5>
+            <button type="button" class="btn cart-button">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <i class="fa-regular fa-heart" id="i"></i>
+          <img
+            src="https://cdn.staticans.com/image/tr:e-sharpen-01,h-500,w-500,cm-pad_resize/data/AmericanTourister/13-June-2023/lq0001001.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title"><b>Altair</b></h5>
+            <h5 class="card-title">
+              <b>₹5,500 <span><s>₹7500</s></span></b>
+            </h5>
+            <button type="button" class="btn cart-button">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <i class="fa-regular fa-heart" id="i"></i>
+          <img
+            src="https://cdn.staticans.com/image/tr:e-sharpen-01,h-500,w-500,cm-pad_resize/data/AmericanTourister/3-April-2023/FH0016001_1.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title"><b>Altair</b></h5>
+            <h5 class="card-title">
+              <b>₹5,500 <span><s>₹7500</s></span></b>
+            </h5>
+            <button type="button" class="btn cart-button">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- best-seller -->
+    <div class="best-seller">
+      <img
+        src="https://cdn.anscommerce.com/live/image/catalog/brandstore/americantourister/6.png"
+        alt=""
+      />
+      <div class="content-part">
+        <h1>Best Sellers</h1>
+        <hr />
+        <p>
+          Shop American Tourister's best-sellers online. Discover the most
+          popular, top-rated travel gear handpicked by American Tourister fans!
+        </p>
+        <button class="btn btn-primary px-3">Shop Now</button>
+      </div>
+    </div>
+    <!-- second selller -->
+    <div class="best-seller">
+      <img
+        src="https://cdn.anscommerce.com/live/image/catalog/brandstore/americantourister/7.png"
+        alt=""
+      />
+      <div class="content-part">
+        <h1>New Arrivals</h1>
+        <hr />
+        <p>
+            Shop new carry-on luggage to backpacks. Freshen up your next trip with the latest in luggage and travel gear.
+        </p>
+        <button class="btn btn-primary px-3">Shop Now</button>
+      </div>
+    </div>
+
+    <div class="bag-container">
+      <div class="img1">
+        <img
+          src="https://cdn.anscommerce.com/live/image/catalog/brandstore/americantourister/9.png"
+          alt=""
+        />
+        <h5>
+          Luggage <br />
+          More >
+        </h5>
+      </div>
+      <div class="img2">
+        <img
+          src="https://cdn.anscommerce.com/live/image/catalog/brandstore/americantourister/10.png"
+          alt=""
+        />
+        <h5>
+          Luggage <br />
+          More >
+        </h5>
+      </div>
+      <div class="img3">
+        <img
+          src="https://cdn.anscommerce.com/live/image/catalog/brandstore/americantourister/9.png"
+          alt=""
+        />
+        <h5>
+          Duffles <br />
+          More >
+        </h5>
+      </div>
+    </div>
+
+    <!-- //after bags -->
+    <div class="best-seller">
+      <img
+        src="https://www.americantourister.com.au/on/demandware.static/-/Library-Sites-AmericanTouristerSharedLibrary/default/dwfe73ab7d/images/homepage/promotion/3_homepage-tiles_desktop2904.png"
+        alt=""
+      />
+      <div class="content-part">
+        <h1>Here For You</h1>
+        <hr />
+        <p>
+            Discover answers for our most frequently asked questions plus how to deal with any issue you might encounter.
+        </p>
+        <button class="btn btn-primary px-3">Let Us Help</button>
+      </div>
+    </div>
+
+    <div class="image-gallery">
+      <div class="images">
+        <img
+          src="https://www.americantourister.com.au/on/demandware.static/-/Library-Sites-AmericanTouristerSharedLibrary/default/dw41b39e80/images/homepage/editorial-story/Editoria-Banner-Airconic.jpg"
+          alt=""
+        />
+      </div>
+      <div class="images">
+        <img
+          src="https://www.americantourister.com.au/on/demandware.static/-/Library-Sites-AmericanTouristerSharedLibrary/default/dw11aceda0/images/homepage/editorial-story/travel-buddy.jpg"
+          alt=""
+        />
+      </div>
+      <div class="images">
+        <img
+          src="https://www.americantourister.com.au/on/demandware.static/-/Library-Sites-AmericanTouristerSharedLibrary/default/dw240c5db4/images/homepage/editorial-story/solo-travel.jpg"
+          alt=""
+        />
+      </div>
+      <div class="images">
+        <img
+          src="https://www.americantourister.com.au/on/demandware.static/-/Library-Sites-AmericanTouristerSharedLibrary/default/dwa86c21d9/images/homepage/editorial-story/editorial-wheres-the-fun-at.jpg"
+          alt=""
+        />
+      </div>
+      <div class="image-content">
+        <h1>#01</h1>
+        <h1 class="h1">Tours</h1>
+        <hr class="horizontal" />
+      </div>
+    </div>
+
+    <!-- social -->
+    <div class="social-content">
+      <div class="part1">
+        <h1>Stay Social!</h1>
+        <h1>#AMERICANTOURISTER</h1>
+        <hr />
+      </div>
+      <div class="part2">
+        <span>Follow us on:</span>
+        <img
+          src="https://www.americantourister.com.au/on/demandware.static/-/Library-Sites-AmericanTouristerSharedLibrary/default/dwc79ad7b0/images/homepage/social/instagram-icon-d.png"
+          alt=""
+        />
+        <img
+          src="https://www.americantourister.com.au/on/demandware.static/-/Library-Sites-AmericanTouristerSharedLibrary/default/dwda3d4ae8/images/homepage/social/facebook-icon-d.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- gallery-2 -->
+    <div class="gallery-2">
+      <div class="images">
+        <img
+          src="https://embedsocial.com/admin/media/feed-media/17985/17985378707109578/image_0.webp?v=1685615670"
+          alt=""
+        />
+        <div class="overlay1"></div>
+      </div>
+      <div class="images">
+        <img
+          src="https://embedsocial.com/admin/media/feed-media/17996/17996211739922027/image_0.webp?v=1685536272"
+          alt=""
+        />
+      </div>
+      <div class="images">
+        <img
+          src="https://embedsocial.com/admin/media/feed-media/17973/17973176708467720/image_0.webp?v=1685025276"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="service">
+      <div class="services">
+        <img
+          src="https://www.americantourister.com.au/on/demandware.static/-/Library-Sites-AmericanTouristerSharedLibrary/default/dwa6f7666e/images/homepage/content/Global%20Warranty_5pt.png"
+          alt=""
+        />
+        <h5>International Warranty</h5>
+        <p>
+          American Tourister is a trusted global brand offering high-quality
+          travel products like luggage, backpacks, and accessories. With a
+          presence in 120+ countries, it's a go-to for millions of travelers.
+        </p>
+      </div>
+      <div class="services">
+        <img
+          src="https://www.americantourister.com.au/on/demandware.static/-/Library-Sites-AmericanTouristerSharedLibrary/default/dwe65259d9/images/homepage/content/ico-delivery.svg"
+          alt=""
+        />
+        <h5>Fast Delivery</h5>
+        <p>
+            We deliver online orders to most of India within 5-7 working days via efficient courier services.
+        </p>
+      </div>
+      <div class="services">
+        <img
+          src="https://www.americantourister.com.au/on/demandware.static/-/Library-Sites-AmericanTouristerSharedLibrary/default/dw4b48e8a0/images/homepage/content/Trusted_Globally_2pt.png"
+          alt=""
+        />
+        <h5>Trusted Globally Since 1933</h5>
+        <p>
+            American Tourister innovates with award-winning luggage produced with world-class quality standards.
+        </p>
+      </div>
+      <div class="services">
+        <img
+          src="https://www.americantourister.com.au/on/demandware.static/-/Library-Sites-AmericanTouristerSharedLibrary/default/dw034915ba/images/homepage/content/ico-full-collection.svg"
+          alt=""
+        />
+        <h5>Full Original Store</h5>
+        <p>
+          American Tourister is a trusted global brand offering high-quality
+          travel products like luggage, backpacks, and accessories. With a
+          presence in 120+ countries, it's a go-to for millions of travelers.
+        </p>
+      </div>
+    </div>
+
+    <!-- brand section -->
+
+    <div class="brand">
+        <h1>The brand today</h1>
+        <h4>Don't let our youthful look fool you. American Tourister has been around for more than Ninty years!</h4>
+        <button class="btn btn-light disc">Discover</button>
+    </div>
+
+    
+
+
+    <div class="subsccription">
+      <div class="sub-content">
+        <h3>Get the latest news from American Tourister.</h3>
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="*Your email addres"
+            aria-label="Username"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+        <button type="button" class="btn btn-light">Light</button>
+      </div>
+    </div>
+    <section class="all-footer">
+      <footer>
+        <div class="div1">
+          <h5>SUPPORT</h5>
+          <p>Service and Warranty</p>
+          <p>Contact Us</p>
+          <p>TSA Lock Instructions</p>
+          <h5 class="ac">ACCOUNT</h5>
+          <p>Track Order</p>
+          <p>Sign In</p>
+          <p>Shop all products</p>
+        </div>
+        <div class="div2">
+          <h5>QUICK LINKS</h5>
+          <p>Damage Policy</p>
+          <p>Care and Cleaning</p>
+          <p>Packing Tips</p>
+          <p>Site Map</p>
+        </div>
+        <div class="div3">
+          <h5>OUR COMPANY</h5>
+          <p>About American Tourister</p>
+        </div>
+      </footer>
+      <div class="social-icons">
+        <div class="footer-image">
+          <img
+            src="https://cdn.staticans.com/image/catalog/brandstore/americantourister/615-2023_03_31-AT_Logo_200x50__1_.png"
+            alt=""
+          />
+        </div>
+        <div class="icons">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+        </div>
+      </div>
+      <hr />
+      <div class="condition-container">
+        <div class="first">
+          <span>Terms & Condition</span>
+          <span>Privacy</span>
+          <span>Personal Information Collection Statemen</span>
+          <span
+            >
+            <img src="https://www.americantourister.com.au/on/demandware.static/-/Library-Sites-AmericanTouristerSharedLibrary/default/dweef6c1ea/images/global/footer/master.svg" alt="">
+            <img
+              src="https://www.americantourister.com.au/on/demandware.static/-/Library-Sites-AmericanTouristerSharedLibrary/default/dw50059651/images/global/footer/visa.svg"
+              alt=""
+          /></span>
+        </div>
+        <div class="part2">
+            <span>Copyright © 2023 Developed and managed by Quadrant</span>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
